@@ -10,16 +10,16 @@ components:
 images:
 - name: broadcaster
   newName: acrdwkakssc.azurecr.io/broadcaster
-  newTag: production-5f3725fbbf759d6831624203e0d7af51a5ed9721
+  newTag: production-e232174bc2e175afaa1bf25186984425556ab2bb
 - name: db-backup
   newName: acrdwkakssc.azurecr.io/db-backup
-  newTag: production-5f3725fbbf759d6831624203e0d7af51a5ed9721
+  newTag: production-e232174bc2e175afaa1bf25186984425556ab2bb
 - name: todo-backend
   newName: acrdwkakssc.azurecr.io/todo-backend
-  newTag: production-5f3725fbbf759d6831624203e0d7af51a5ed9721
+  newTag: production-e232174bc2e175afaa1bf25186984425556ab2bb
 - name: todo-project
   newName: acrdwkakssc.azurecr.io/todo-project
-  newTag: production-5f3725fbbf759d6831624203e0d7af51a5ed9721
+  newTag: production-e232174bc2e175afaa1bf25186984425556ab2bb
 - name: wiki-todo-generator
   newName: acrdwkakssc.azurecr.io/wiki-todo-generator
-  newTag: production-5f3725fbbf759d6831624203e0d7af51a5ed9721
+  newTag: production-e232174bc2e175afaa1bf25186984425556ab2bb
