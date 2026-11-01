@@ -44,13 +44,13 @@ patches:
 images:
 - name: broadcaster
   newName: acrdwkakssc.azurecr.io/broadcaster
-  newTag: main-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+  newTag: main-f2d47d71069f529c359771261b2c86bd5e275164
 - name: todo-backend
   newName: acrdwkakssc.azurecr.io/todo-backend
-  newTag: main-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+  newTag: main-f2d47d71069f529c359771261b2c86bd5e275164
 - name: todo-project
   newName: acrdwkakssc.azurecr.io/todo-project
-  newTag: main-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+  newTag: main-f2d47d71069f529c359771261b2c86bd5e275164
 - name: wiki-todo-generator
   newName: acrdwkakssc.azurecr.io/wiki-todo-generator
-  newTag: main-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+  newTag: main-f2d47d71069f529c359771261b2c86bd5e275164
