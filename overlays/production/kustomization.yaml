@@ -1,0 +1,25 @@
+# Production in Azure Kubernetes Service: images from the course registry, Gateway API routing and
+# database backups. The workflow of the code repository writes the image tags here on every tag.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base
+components:
+- ../../components/gateway
+- ../../components/db-backup
+images:
+- name: broadcaster
+  newName: acrdwkakssc.azurecr.io/broadcaster
+  newTag: production-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+- name: db-backup
+  newName: acrdwkakssc.azurecr.io/db-backup
+  newTag: production-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+- name: todo-backend
+  newName: acrdwkakssc.azurecr.io/todo-backend
+  newTag: production-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+- name: todo-project
+  newName: acrdwkakssc.azurecr.io/todo-project
+  newTag: production-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2
+- name: wiki-todo-generator
+  newName: acrdwkakssc.azurecr.io/wiki-todo-generator
+  newTag: production-6f272fc2a6f17f77e17ab14d7d1f34066dbab6c2

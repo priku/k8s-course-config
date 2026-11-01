@@ -1,0 +1,10 @@
+# The whole todo project: frontend, backend with its database, the hourly CronJob, and
+# broadcaster with NATS. The overlays add what differs between the environments.
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../apps/todo-project
+  - ../apps/todo-backend
+  - ../apps/wiki-todo-generator
+  - ../apps/broadcaster
+  - nats.yaml
